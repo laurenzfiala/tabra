@@ -1,0 +1,13 @@
+/* layer order/precedence in layers.css */
+
+@import './theme.css' layer(global);
+@import './fonts.css' layer(global);
+@import './heading.css' layer(global);
+@import './layout.css' layer(global);
+@import './outline.css' layer(global);
+@import './background.css' layer(global);
+@import './base.css' layer(global);
+
+@import 'tailwindcss/preflight' layer(framework);
+@import 'tailwindcss/theme' layer(framework);
+@import 'tailwindcss/utilities' layer(utils);
